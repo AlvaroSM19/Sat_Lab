@@ -1,13 +1,28 @@
-#Executing the top file should be sufficient to generate of the files.
-#I have commented all the used files in order to be easier to understand them.
-#The visible_satellite.csv and scenario_manager may need to be updated with the correct info.
-#I also included an image with the modulation scheme.
- #Packet format
-    #8 bits for SAT_ID
-    #12 bits for week
-    #20 bits for tow
-    #32 bits for each eci_pos component
-    #32 bits for each eci_v component
-    #32 bits for each ecef_pos component
-    #32 bits for each ecef_v component
-    #Random bits to reach 1000 bits per packet
+# Project Overview
+
+All used files have been commented to enhance readability.
+
+## Files Used
+
+- **visible_satellite.csv**: May require updating with correct information.
+- **scenario_manager.ini**: May require updating with correct information.
+
+
+## Modulation Scheme
+
+An image of the modulation scheme is included
+
+The packet format used is as follows:
+
+- 8 bits for SAT_ID
+- 12 bits for week
+- 20 bits for tow
+- 32 bits for each eci_pos component
+- 32 bits for each eci_v component
+- 32 bits for each ecef_pos component
+- 32 bits for each ecef_v component
+- Random bits to reach 1000 bits per packet
+
+## Execution
+
+Executing the main file (`top_file.m`) should be sufficient to generate all necessary files.
