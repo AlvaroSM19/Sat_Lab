@@ -4,7 +4,7 @@ close all
 %Read Scenario Manager .ini file and Define all variables
 %Read satellites info .csv file
 
-fs = 10000;
+fs = 100000;
 ini = ini2struct("scenario_manager.ini"); %ini2struc is an extern function to read the file (not made by me)
 satellites = readtable('visible_satellites.csv');
 power = str2double(ini.transmittedSignalParameters.p_tx);
