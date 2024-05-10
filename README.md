@@ -1,7 +1,7 @@
 # Project Overview
 
-All used files have been commented to enhance readability.
-Sampling frequency is set to 100 000 samples/second.
+-All used files have been commented to enhance readability.
+-Sampling frequency is set to 100 000 samples/second.
 
 ## Files Used
 
